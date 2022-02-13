@@ -1,0 +1,35 @@
+/* Base styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #000000;
+  color: darkcyan;
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+main {
+  margin-bottom: auto;
+  background-color: rgb(178, 167, 218);
+}
+
+header {
+  background-color: rgb(235, 232, 209);
+}
+
+footer {
+  background-color: rgb(176, 189, 183);
+}
